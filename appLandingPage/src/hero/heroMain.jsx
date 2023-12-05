@@ -1,5 +1,5 @@
 import Navbar from "./Navbar"
-import Available from "./Available"
+import Available from '../components/Available'
 import apple from '../img/icon/apple-icon.png'
 import playstore from '../img/icon/playstore-icon.png'
 export default function heroMain(){

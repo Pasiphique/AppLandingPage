@@ -26,10 +26,13 @@
 .img-icon{
     background-color: black;
 }
+/*      Banner section                                 */
 .banner{
     width: 100%;
     border:1px solid black;
     min-height: 30vh;
+    display: flex;
+    justify-content: space-around;
 }
 .trust{
     width: 100%;

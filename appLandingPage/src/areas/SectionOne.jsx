@@ -1,6 +1,6 @@
 export default function sectionOne(){
     return(
-        <div>
+        <div className="section">
             <div>
                 <h1>img</h1>
             </div>

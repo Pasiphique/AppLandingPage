@@ -1,2 +1,58 @@
-
-
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    margin-top: .5rem;
+    width: 90%;
+    margin-left:5%;
+}
+.section{
+    border:1px solid black;
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+}
+.hero-main{
+    width: 60%;
+    min-height: 95vh;
+    border:1px solid black;
+    margin-left:5%;
+}
+.hero-phone{
+    width: 40%;
+    min-height: 95vh;
+}
+.img-icon{
+    background-color: black;
+}
+.banner{
+    width: 100%;
+    border:1px solid black;
+    min-height: 30vh;
+}
+.trust{
+    width: 100%;
+    border:1px solid black;
+    min-height: 50vh;
+}
+.download{
+    width: 100%;
+    border:1px solid black;
+    min-height: 60vh;
+}
+footer{
+    width: 100%;
+    border:1px solid black;
+    min-height: 70vh;
+}
+.footer-section{
+    width: 100%;
+    min-height: 50vh;
+    border:1px solid black;
+}
+.copyright{
+    width: 100%;
+    min-height: 20vh;
+    border:1px solid black;
+}

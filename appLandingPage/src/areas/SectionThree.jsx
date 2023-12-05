@@ -1,6 +1,6 @@
 export default function sectionThree(){
     return(
-        <div>
+        <div className="section">
             <div>
                 <h1>img</h1>
             </div>

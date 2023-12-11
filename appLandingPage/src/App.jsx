@@ -6,9 +6,9 @@ import Footer from './Footer'
 function App() {
   return (
     <div className='main'>
-      <Hero />
+      {<Hero />}
       <Sections/>
-      <Footer />
+      {<Footer />}
     </div>
   )
 }

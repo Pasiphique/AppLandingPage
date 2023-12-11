@@ -1,11 +1,16 @@
+
+import phone from '../img/iphones/iphone3.png'
+import learnMore from '../img/options/learn-more-ow.png'
 export default function sectionTwo(){
     return(
-        <div className="section">
+        <div className="section section-two">
             <div>
-                <h1>Lorem ipsum dolor sit amet.</h1>
+                <h1>External Checking Account</h1>
+                <p>Keep your current bank and have your Empower Cash Advance or Empower Thrive funds deposited to your primary bank account.</p>
+                <button><img src={learnMore} alt="" /></button>
             </div>
             <div>
-                <h1>img</h1>
+            <img src={phone} alt="" className='phone-container' />
             </div>
             
         </div>

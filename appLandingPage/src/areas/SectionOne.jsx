@@ -1,12 +1,11 @@
 
-import ImgContainer from '../components/ImgContainer'
-import phone from '../img/iphones/iphone2.png'
+import phone from '../img/iphones/iphone3.png'
 import learnMore from '../img/options/learn-more-bo.png'
 export default function sectionOne(){
     return(
         <div className="section">
-            <div>
-                <ImgContainer iphone={phone} />
+             <div>
+                <img src={phone} alt="" className='phone-container' />
             </div>
             <div>
                 <h1>Empower Cash Advance</h1>
@@ -15,8 +14,9 @@ export default function sectionOne(){
                     <li><span>No interest, no late fees, no credit checks</span></li>
                     <li><span>Instant delivery</span></li>
                 </ul>
-            <div><img src={learnMore} alt="" /></div>
+                <div><button><img src={learnMore} alt="" /></button></div>
             </div>
+           
         </div>
     )
 }

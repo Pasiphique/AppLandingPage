@@ -1,3 +1,21 @@
+:root{
+    --navbarfontsize: 18px;
+    --navbarfontfamily: 'Lato';
+    --herofontsize: 72px;
+    --herofontfamily: 'Sentient';
+    --appstorefontfamily: 'Poppins';
+    --appstorefontsize: 18px;
+    --phonebackgroundcolor: #FCA311;
+    --herobackgroundcolor: #14213D;
+    --sectionsHeaderfontsize: 46px;
+    --sectionsparagraphfontsize: 20px;
+    --userfontdescriptionsize: 12px;
+    --userfontfamily: 'inter';
+    --userfontNameSize: 14px;
+    --downloadparafontSize: 16px;
+    --copyrightfontSize: 20px;
+    --footerbgcolor: #262626;
+}
 *{
     margin:0;
     padding:0;
@@ -7,55 +25,111 @@
     width: 90%;
     margin-left:5%;
 }
-.section{
-    border:1px solid black;
-    width: 100%;
-    min-height: 95vh;
+.hero-section{
     display: flex;
+    width: 100%;
+    height: 95vh;
+    margin-top:3rem;
+    border:1px solid black;
+}
+.hero-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.section{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+    border:none;
+    background-color: transparent;
+}
+.btn-hero{
+    background-color: black;
+    color:white;
 }
 .hero-main{
     width: 60%;
-    min-height: 95vh;
-    border:1px solid black;
     margin-left:5%;
 }
+.navbar{
+    margin-top: 2rem;
+}
+.navbar > ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
 .hero-phone{
-    width: 40%;
-    min-height: 95vh;
+    width: 50%;
+    height: 95vh;
+    border:1px solid black;
+    background-color: var(--herobackgroundcolor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+.phone-img-hero{
+    width: 75%;
 }
 .img-icon{
     background-color: black;
 }
-/*      Banner section                                 */
+/*      Banner section    */
 .banner{
     width: 100%;
     border:1px solid black;
-    min-height: 30vh;
     display: flex;
     justify-content: space-around;
+    background-color: black;
 }
+.section-two{
+    background-color: var(--herobackgroundcolor);
+}
+.orangebg{
+    background-color: var(--phonebackgroundcolor);
+}
+.phone-container{
+    width: 70%;
+    height: 100%;
+}
+
 .trust{
     width: 100%;
     border:1px solid black;
-    min-height: 50vh;
+    height: 65vh;
 }
 .download{
     width: 100%;
     border:1px solid black;
-    min-height: 60vh;
+    height: 65vh;
 }
 footer{
     width: 100%;
     border:1px solid black;
-    min-height: 70vh;
+    background-color: var(--footerbgcolor);
+}
+footer li{
+    color: white;
+}
+footer p{
+    color:white;
 }
 .footer-section{
     width: 100%;
-    min-height: 50vh;
     border:1px solid black;
 }
 .copyright{
     width: 100%;
-    min-height: 20vh;
     border:1px solid black;
+    color:white;
 }

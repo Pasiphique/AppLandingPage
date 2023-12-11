@@ -9,13 +9,13 @@ import SectionFour from './areas/SectionFour'
 export default function Sections(){
     return(
     <div>
-        <Banner />
-        <SectionOne/>
-        <SectionTwo/>
-        <SectionThree/> 
-        <Trust/>
-        <SectionFour/>
-        <Download /> 
+      <Banner /> 
+      <SectionOne/>
+      <SectionTwo/>
+      <SectionThree/> 
+      <Trust/>
+      <SectionFour/>
+    <Download /> 
     </div>
     )
 }

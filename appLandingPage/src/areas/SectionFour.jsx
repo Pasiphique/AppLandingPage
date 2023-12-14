@@ -3,14 +3,14 @@ import learnMore from '../img/options/learn-more-bo.png'
 export default function sectionFour(){
     return(
         <div className="section">
-            <div>
+            <div  className='fourth-section fourth'>
                 <h1>We believe credit should be more accessible</h1>
                 <ul>
                     <li><span>Cash whenever you </span></li>
                     <li><span>Opportunity to improve your credit</span></li>
                     <li><span>No credit score or security deposit to qualify</span></li>
                 </ul>
-            <div><button><img src={learnMore} alt="" /></button></div>
+                <div><button><img src={learnMore} alt="" /></button></div>
             </div>
             <div>
                 <img src={phone} alt="" className='phone-container' />

@@ -63,7 +63,7 @@
     align-items: center;
     cursor: pointer;
 }
-ul>li:hover{
+.navbar ul>li:hover{
     color:#FCA311;
 }
 .hero-phone{
@@ -162,6 +162,56 @@ button{
 .phone-container{
     width: 70%;
     height: 100%;
+}
+.content-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 70%;
+    margin:auto;
+}
+.content-section h1{
+    font-family: var(--herofontfamily);
+    font-size: 60px;
+    margin-bottom:3rem;
+}
+.content-section ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    list-style-image: url('./img/options/tick.png');
+    list-style-position:inside;
+}
+.fourth-section ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    list-style-position:inside;
+}
+.fourth-section h1{
+    font-family: var(--herofontfamily);
+    font-size: 60px;
+    margin-bottom: 3rem;
+}
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 80%;
+    margin:auto;
+}
+
+.fourth li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+.fourth li::before{
+    content: url('./img/options/heart.png');
+    margin-right: 15px;
 }
 
 .trust{

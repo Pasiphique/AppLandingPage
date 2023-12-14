@@ -7,12 +7,12 @@ export default function sectionOne(){
              <div>
                 <img src={phone} alt="" className='phone-container' />
             </div>
-            <div>
+            <div className='content-section'>
                 <h1>Empower Cash Advance</h1>
                 <ul>
-                    <li><span>Receive up to $250 today</span></li>
-                    <li><span>No interest, no late fees, no credit checks</span></li>
-                    <li><span>Instant delivery</span></li>
+                    <li>Receive up to $250 today</li>
+                    <li>No interest, no late fees, no credit checks</li>
+                    <li>Instant delivery</li>
                 </ul>
                 <div><button><img src={learnMore} alt="" /></button></div>
             </div>

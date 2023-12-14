@@ -9,13 +9,14 @@ export default function heroMain(){
             <Navbar/>
             <div className="hero-content">
                 <div>  
-                <p>Your Journey to better credit <span>Starts here</span></p>
-                <p>Think the credit system is stacked against you? So do we. We'll help you get the credit you deserve.</p>
-                <button className="btn-hero"><Available source={apple} store="App"/></button>
-                <button className="btn-hero"><Available source={playstore} store="Play"/></button>
+                    <p className="hero-text">Your Journey to better credit <span>Starts here</span></p>
+                    <p className="hero-text-think">Think the credit system is stacked against you? So do we. We'll help you get the credit you deserve.</p>
+                    <div className="btn-container">
+                        <Available source={apple} store="App"/>
+                        <Available source={playstore} store="Play"/>
+                    </div>
                 </div>      
             </div>
-        </div>
-        
+        </div>   
     )
 }

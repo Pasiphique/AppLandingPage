@@ -1,7 +1,7 @@
 :root{
     --navbarfontsize: 18px;
     --navbarfontfamily: 'Lato';
-    --herofontsize: 72px;
+    --herofontsize: 5rem;
     --herofontfamily: 'Sentient';
     --appstorefontfamily: 'Poppins';
     --appstorefontsize: 18px;
@@ -30,11 +30,10 @@
     width: 100%;
     height: 95vh;
     margin-top:3rem;
-    border:1px solid black;
 }
 .hero-content{
     width: 100%;
-    height: 100%;
+    height: 80%;
     display: flex;
     align-items: center;
 }
@@ -46,26 +45,26 @@
     justify-content: space-around;
     align-items: center;
 }
-button{
-    cursor: pointer;
-    border:none;
-    background-color: transparent;
-}
-.btn-hero{
-    background-color: black;
-    color:white;
-}
 .hero-main{
     width: 60%;
     margin-left:5%;
 }
 .navbar{
     margin-top: 2rem;
+    width: 80%;
 }
 .navbar > ul{
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
+    font-family: var(--navbarfontfamily);
+    font-size: var(--navbarfontsize);
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar ul>li:hover{
+    color:#FCA311;
 }
 .hero-phone{
     width: 50%;
@@ -78,19 +77,81 @@ button{
     align-items: center;
     row-gap: 2rem;
 }
-.phone-img-hero{
-    width: 75%;
+.hero-img-content{
+    width:80%;
+    display: flex;
+    flex-flow: row-reverse;
 }
+.phone-img-hero{
+    width: 80%;
+}
+.phone-contents{
+    display: flex;
+    justify-content: center;
+}
+.hero-text{
+    font-family: var(--herofontfamily);
+    font-size: var(--herofontsize);
+    width: 80%;
+    margin-bottom: 1.5rem;
+}
+.hero-text span{
+    background-color: var(--phonebackgroundcolor);
+}
+.hero-text-think{
+    font-family: var(--navbarfontfamily);
+    font-size: var(--appstorefontsize);
+    width: 80%;
+    margin-bottom: 2rem;
+}
+button{
+    cursor: pointer;
+    border:none;
+    background-color: transparent;
+}
+.btn-container{
+    width: 70%;
+    display: flex;
+}
+.btn-hero{
+    background-color: black;
+    color:white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+}
+.btn-hero:hover{
+    border:4px solid #FCA311;
+}
+.btn-hero:first-child{
+    margin-right: 2rem;
+}
+.available{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-icon{
     background-color: black;
 }
 /*      Banner section    */
 .banner{
     width: 100%;
-    border:1px solid black;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: black;
+    height: 20vh;
+}
+.banner span:hover{
+   /* background-color: #FCA311; */
+    border-bottom: 10px solid #FCA311;
 }
 .section-two{
     background-color: var(--herobackgroundcolor);
@@ -101,6 +162,56 @@ button{
 .phone-container{
     width: 70%;
     height: 100%;
+}
+.content-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 70%;
+    margin:auto;
+}
+.content-section h1{
+    font-family: var(--herofontfamily);
+    font-size: 60px;
+    margin-bottom:3rem;
+}
+.content-section ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    list-style-image: url('./img/options/tick.png');
+    list-style-position:inside;
+}
+.fourth-section ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    list-style-position:inside;
+}
+.fourth-section h1{
+    font-family: var(--herofontfamily);
+    font-size: 60px;
+    margin-bottom: 3rem;
+}
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 80%;
+    margin:auto;
+}
+
+.fourth li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+.fourth li::before{
+    content: url('./img/options/heart.png');
+    margin-right: 15px;
 }
 
 .trust{

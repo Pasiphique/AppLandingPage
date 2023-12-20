@@ -123,7 +123,7 @@ button{
     padding:1rem;
 }
 .btn-hero:hover{
-    border:4px solid #FCA311;
+    border:.150rem solid #FCA311;
 }
 .btn-hero:first-child{
     margin-right: 2rem;
@@ -155,7 +155,39 @@ button{
 }
 .section-two{
     background-color: var(--herobackgroundcolor);
+    display: flex;
+    justify-content: space-around;
 }
+.section-two-infoContainer{
+    width:50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.section-two-info{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section-two h1{
+    font-size: var(--sectionsHeaderfontsize);
+    font-family: var(--herofontfamily);
+    color: white;
+    width: 55%;
+    height: 20%;
+}
+.section-two p{
+    color:white;
+    font-family: var(--sectionsHeaderfontsize);
+    font-size: 30px;
+    width:100%;
+}
+.section-two button{
+    width: 30%;
+}
+
 .orangebg{
     background-color: var(--phonebackgroundcolor);
 }
@@ -169,6 +201,7 @@ button{
     width: 40%;
     height: 70%;
     margin:auto;
+    
 }
 .content-section h1{
     font-family: var(--herofontfamily);
@@ -180,8 +213,16 @@ button{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    list-style-image: url('./img/options/tick.png');
     list-style-position:inside;
+}
+.content-section li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+.content-section li::before{
+    content: url('./img/options/tick.png');
+    margin-right: 15px;
 }
 .fourth-section ul{
     height: 100%;

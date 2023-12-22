@@ -7,25 +7,24 @@ export default function sectionThree(){
             <div>
                 <img src={phone} alt="" className='phone-container'/>
             </div>
-            <div>
+            <div className='section-three'>
                 <h1>Use and trusted by a community of millions</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit in consequat sollicitudin adipiscing facilisi sit et hendrerit diam</p>
-                <div>
-                    <div>
-                        <span>12+</span>
-                        <span>Years experience</span>
+                <div className='percentages'>
+                    <div >
+                        <span className='total'>12+</span>
+                        <span className='more-info'>Years experience</span>
                     </div>
                     <div>
-                        <span>90%</span>
-                        <span>Committed Users</span>
+                        <span className='total'>90%</span>
+                        <span className='more-info'>Committed Users</span>
                     </div>
                     <div>
-                        <span>10M</span>
-                        <span>Active Users</span>
+                        <span className='total'>10M</span>
+                        <span className=' more-info'>Active Users</span>
                     </div>
                     <div>
-                        <span>250M</span>
-                        <span>Total Transactions</span>
+                        <span className='total'>250M</span>
+                        <span className='more-info'>Total Transactions</span>
                     </div>
                 </div>
             </div>

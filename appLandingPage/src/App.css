@@ -22,8 +22,7 @@
 }
 .main{
     margin-top: .5rem;
-    width: 90%;
-    margin-left:5%;
+    width: 100%;
 }
 .hero-section{
     display: flex;
@@ -169,10 +168,10 @@ button{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .section-two h1{
-    font-size: var(--sectionsHeaderfontsize);
+    font-size: var(--sectionsHeaderfontsize); 
     font-family: var(--herofontfamily);
     color: white;
     width: 55%;
@@ -180,9 +179,50 @@ button{
 }
 .section-two p{
     color:white;
-    font-family: var(--sectionsHeaderfontsize);
+    font-family: var(--sectionsparagraphfontsize);
     font-size: 30px;
     width:100%;
+}
+.section-three{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.section-three h1{
+    font-size: var(--sectionsHeaderfontsize); 
+    font-family: var(--herofontfamily);
+    width:100%;
+    height: 50%;
+    font-weight: 500;
+}
+.more-info{
+    font-size: 20px;
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    font-family: 'Sentient';
+    font-size: 20px;
+    width:100%;
+}
+.percentages{
+    width:70%;
+    height: 80%;
+    display:grid;
+    grid-template: repeat(2, 50%) / repeat(2,50%);
+}
+.percentages div{
+    display: flex;
+    flex-direction: column;
+}
+.total{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    font-family: 'Sentient';
+    font-size: 40px;
+    width:100%;
+    font-weight: bold;
 }
 .section-two button{
     width: 30%;

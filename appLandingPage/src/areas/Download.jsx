@@ -5,8 +5,11 @@ export default function Download(){
     return(
         <div className="download orangebg">
             <h1>Download AppX to get started</h1>
-            <button><Available source={apple} store="App"/></button>
-            <button><Available source={playstore} store="Play"/></button>
+            <div className='download-btn'>
+                <Available source={apple} store="App"/>
+                <Available source={playstore} store="Play"/>
+            </div>
+            
         </div>
     )
 }

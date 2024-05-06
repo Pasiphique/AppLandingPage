@@ -1,5 +1,6 @@
 import phone from '../img/iphones/iphone2.png'
 import learnMore from '../img/options/learn-more-bo.png'
+import Info from '../components/Info'
 export default function sectionFour(){
     return(
         <div className="section">
@@ -10,7 +11,7 @@ export default function sectionFour(){
                     <li><span>Opportunity to improve your credit</span></li>
                     <li><span>No credit score or security deposit to qualify</span></li>
                 </ul>
-                <div><button><img src={learnMore} alt="" /></button></div>
+                <Info title="Learn More" front ={"black"} back ="#FCA311" />
             </div>
             <div>
                 <img src={phone} alt="" className='phone-container' />

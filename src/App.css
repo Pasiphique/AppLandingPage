@@ -121,9 +121,7 @@ button{
     align-items: center;
     padding:1rem;
 }
-.btn-hero:hover{
-    border: 2px solid whitesmoke;
-}
+
 .btn-hero:first-child{
     margin-right: 2rem;
 }
@@ -324,8 +322,7 @@ button{
 }
 footer{
     width: 100%;
-    border:1px solid black;
-    background-color: var(--footerbgcolor);
+    background-color:#383737;
 }
 footer li{
     color: white;
@@ -335,10 +332,69 @@ footer p{
 }
 .footer-section{
     width: 100%;
+    min-height: 50vh;
     border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-height: 30vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info-text{
+    width: 75%;
+    font-size: 1.5rem;
+}
+.footer-links{
+    min-height: inherit;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-links div {
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+ 
+}
+.footer-links ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-links ul li{
+    width: 100%;
+    margin: 1.5rem  0;
+    font-size: 1.05rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #FCA311;
 }
 .copyright{
     width: 100%;
-    border:1px solid black;
+    background-color: rgba(44, 43, 43, 0.836);
     color:white;
+    height: 10vh;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

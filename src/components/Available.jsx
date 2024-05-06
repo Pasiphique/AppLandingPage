@@ -7,8 +7,10 @@ export default function Available({source, store}){
                 <img src={source} alt="" className="img-icon"/>
             </div>
            <div className="available">
-                <span >Available now</span>
-                <span>{store} Store</span>
+                <a href="#">
+                    <span >Available now</span>
+                    <span>{store} Store</span>
+                </a>               
            </div>
         </button>
     )

@@ -5,11 +5,12 @@ import Sections from './Sections'
 import Footer from './Footer'
 function App() {
   return (
-    <div className='main'>
+   <div className='main'>
       {<Hero />}
       <Sections/>
       {<Footer />}
     </div>
+    
   )
 }
 

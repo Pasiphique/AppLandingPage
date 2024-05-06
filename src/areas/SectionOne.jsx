@@ -1,6 +1,7 @@
 
 import phone from '../img/iphones/iphone3.png'
 import learnMore from '../img/options/learn-more-bo.png'
+import Info from '../components/Info'
 export default function sectionOne(){
     return(
         <div className="section">
@@ -14,7 +15,7 @@ export default function sectionOne(){
                     <li>No interest, no late fees, no credit checks</li>
                     <li>Instant delivery</li>
                 </ul>
-                <div><button><img src={learnMore} alt="" /></button></div>
+                <Info title="learn More" front ={"black"} back ="#FCA311"  />
             </div>
            
         </div>

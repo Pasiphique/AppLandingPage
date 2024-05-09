@@ -429,6 +429,8 @@ a:hover{
     padding:2rem;
     margin: .5rem;
     font-size: 1.5rem;
+    max-width: 90%;
+    max-height: 30vh;
 }
 .user-profile > div {
     width: 30%;

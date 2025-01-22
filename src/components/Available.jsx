@@ -8,7 +8,6 @@ export default function Available({source, store}){
             </div>
            <div className="available">
                 <a href="#">
-                    <span >Available now</span>
                     <span>{store} Store</span>
                 </a>               
            </div>

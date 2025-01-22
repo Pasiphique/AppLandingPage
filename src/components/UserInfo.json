@@ -1,5 +1,6 @@
 [
     {
+        "index": 1,
         "name": "Vineet",
         "job" : "Web Designer",
         "src" : "/src/img/user/user1.png",

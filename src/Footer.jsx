@@ -30,13 +30,6 @@ export default function Footer(){
                     </div>
                     <div>
                         <ul>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Linkedin</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
                             <li>hi@appx.com</li>
                             <li>999-000-1234</li>
                         </ul>
@@ -44,7 +37,7 @@ export default function Footer(){
                 </div>
             </div>
             <div className="copyright">
-                <span>Copyright 2024.</span>
+                <span>&copy; 2024 Pasiphique Osward</span>
             </div>
         </footer>
             

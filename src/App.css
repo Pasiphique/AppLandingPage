@@ -28,7 +28,6 @@
     display: flex;
     width: 100%;
     height: 95vh;
-    margin-top:3rem;
 }
 .hero-content{
     width: 100%;
@@ -148,7 +147,7 @@ button{
 }
 .banner span:hover{
    /* background-color: #FCA311; */
-    border-bottom: 10px solid #FCA311;
+    border-bottom: .05rem solid #FCA311;
 }
 .section-two{
     background-color: var(--herobackgroundcolor);
@@ -177,8 +176,9 @@ button{
 }
 .section-two p{
     font-family: var(--sectionsparagraphfontsize);
-    font-size: 30px;
+    font-size: 2rem;
     width:100%;
+    color:white;
 }
 .section-three{
     width: 40%;
@@ -317,7 +317,7 @@ button{
 }
 footer{
     width: 100%;
-    background-color:#383737;
+    background-color: #14213D;
 }
 footer li{
     color: white;
@@ -385,7 +385,7 @@ a:hover{
 }
 .copyright{
     width: 100%;
-    background-color: rgba(44, 43, 43, 0.836);
+    background-color: #14213D;
     color:white;
     height: 10vh;
     font-size: 1rem;

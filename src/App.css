@@ -337,10 +337,15 @@ footer p{
 .footer-info{
     display: flex;
     flex-direction: column;
-    width: 20%;
-    min-height: 30vh;
+    width: 15%;
+    min-height: 25vh;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+}
+.footer-info > img{
+    width: 70%;
+   
 }
 
 .footer-info-text{

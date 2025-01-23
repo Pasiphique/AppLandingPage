@@ -423,7 +423,21 @@ a:hover{
 .profile-content{
     text-align: center;
 }
-
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.profile-container button{
+    color:white;
+    font-size: 2.5rem;
+}
+.story-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
 .user-profile{
     display: flex;
     justify-content: space-around;
@@ -432,13 +446,9 @@ a:hover{
     width: 65%;
     padding:5%;
 }
-.user-profile > p{
-    width: 90%;
-    padding:2rem;
-    margin: .5rem;
-    font-size: 1.5rem;
-    max-width: 90%;
-    max-height: 30vh;
+.user-profile  p{
+    font-family: var(--appstorefontfamily);
+    font-size: 1rem;
 }
 .user-profile > div {
     width: 30%;

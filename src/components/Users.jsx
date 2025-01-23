@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import UserInfo from './UserInfo.json'
 export default function Users(){
    
@@ -8,11 +8,14 @@ export default function Users(){
     const handleNextStory = ()=>{
         setCurrentIndex((prevIndex) => (prevIndex +1) % UserInfo.length);
     }
+    const handlePrevStory = ()=>{
+        setCurrentIndex((prevIndex) => (prevIndex -1 == -1) ? UserInfo.length-1: prevIndex -1);
+    }
 
     return(
         <div className='profile-container'>
-                <div className='user-profile' key={UserInfo[currentIndex].index}>
-                    <p>{UserInfo[currentIndex].description}</p>
+            <div className='user-profile' key={UserInfo[currentIndex].index}>
+                    <p >{UserInfo[currentIndex].description}</p>
                     <div className='profile-content'>
                         <img src={UserInfo[currentIndex].src} alt="avatar" />
                         <div className='user-name'>
@@ -21,7 +24,11 @@ export default function Users(){
                         </div>
                     </div>
             </div>
-            <button onClick={handleNextStory}> Next Story</button>
+            <div className='story-btn'>
+                <button onClick={handlePrevStory}>&#8610;</button>
+                <button onClick={handleNextStory}>&#8611;</button>
+            </div>
+            
         </div>
         
     )

@@ -4,20 +4,20 @@
         "name": "Vineet",
         "job" : "Marketing Associate",
         "src" : "users/user1.png",
-        "description" : "AppX has changed the way I bank! It has enabled me to manage my credit effeciently and I've improved my credit score by 15 points!"
+        "description" : "AppX has completely transformed the way I handle my budget! With its smart expense tracking and savings goals, I’ve saved over $1,000 in just three months, and I finally feel in control of my finances"
     },
     {
         "index": 2,
         "name": "Mike",
         "job" : "Web Designer",
         "src" : "users/user2.png",
-        "description" : "AppX has changed the way I bank! It has enabled me to manage my credit effeciently and I've improved my credit score by 15 points!"
+        "description" : "AppX has been a lifesaver for managing my debts! Its payment reminders and debt payoff planner helped me pay off two credit cards in six months, saving me hundreds in interest fees."
     },
     {
         "index": 3,
         "name": "Billy",
         "job" : "Target Employee",
         "src" : "users/user3.png",
-        "description" : "AppX has changed the way I bank! It has enabled me to manage my credit effeciently and I've improved my credit score by 15 points!"
+        "description" : "AppX made managing my finances across multiple banks seamless! By linking my external checking account, I can view all my transactions in one place. This has helped me avoid overdraft fees, track my spending more effectively, and save an extra $200 a month by identifying unnecessary expenses!"
     } 
 ]

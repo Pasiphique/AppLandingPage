@@ -13,7 +13,7 @@ export default function Users(){
         <div className='profile-container'>
                 <div className='user-profile' key={UserInfo[currentIndex].index}>
                     <p>{UserInfo[currentIndex].description}</p>
-                    <div>
+                    <div className='profile-content'>
                         <img src={UserInfo[currentIndex].src} alt="avatar" />
                         <div className='user-name'>
                             <p>{UserInfo[currentIndex].name}</p>

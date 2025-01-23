@@ -1,5 +1,5 @@
 
-import logo from '../img/options/logo.png'
+import logo from "../img/options/logo.png"
 export default function Navbar(){
     return(
         <nav className="navbar">

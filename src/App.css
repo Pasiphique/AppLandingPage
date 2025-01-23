@@ -420,6 +420,9 @@ a:hover{
     align-items: center;
     flex-direction: column;
 }
+.profile-content{
+    text-align: center;
+}
 
 .user-profile{
     display: flex;

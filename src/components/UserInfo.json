@@ -2,9 +2,22 @@
     {
         "index": 1,
         "name": "Vineet",
-        "job" : "Web Designer",
-        "src" : "/src/img/user/user1.png",
+        "job" : "Marketing Associate",
+        "src" : "users/user1.png",
         "description" : "AppX has changed the way I bank! It has enabled me to manage my credit effeciently and I've improved my credit score by 15 points!"
-    }
-    
+    },
+    {
+        "index": 2,
+        "name": "Mike",
+        "job" : "Web Designer",
+        "src" : "users/user2.png",
+        "description" : "AppX has changed the way I bank! It has enabled me to manage my credit effeciently and I've improved my credit score by 15 points!"
+    },
+    {
+        "index": 3,
+        "name": "Billy",
+        "job" : "Target Employee",
+        "src" : "users/user3.png",
+        "description" : "AppX has changed the way I bank! It has enabled me to manage my credit effeciently and I've improved my credit score by 15 points!"
+    } 
 ]
